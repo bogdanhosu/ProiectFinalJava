@@ -2,7 +2,7 @@
 This project is a simple Java-based console application for managing products, including adding, displaying, updating, and removing products stored in a MySQL database.
 
 ## Table of Contents
-
+- [Installation](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
@@ -10,10 +10,10 @@ This project is a simple Java-based console application for managing products, i
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
+## Prerequisites
 ## Installation
 
-### Prerequisites
+
 
 - Java Development Kit (JDK) 8 or higher
 - IntelliJ IDEA or any Java IDE
