@@ -49,11 +49,12 @@ CREATE TABLE Products (
 
 **4. Configure the database connection**
 ```
-Update the application.properties (or application.yml) file in the src/main/resources directory with your database credentials:
-spring.datasource.url=jdbc:mysql://localhost:3306/InventoryDB
-spring.datasource.username=root
-spring.datasource.password=ProiectFinal
+public class ProductService implements RedButton {
+    private static final String URL = "jdbc:mysql://localhost:3306/InventoryDB";// Update with your URL/location for database
+    private static final String USER = "root"; // Update with your MySQL user
+    private static final String PASSWORD = "ProiectFinal"; // Update with your MySQL password
 ```
+
 **5.Build and run the project**
 Run the project from IntelliJ IDEA by selecting Run > Run 'Main'.
 
