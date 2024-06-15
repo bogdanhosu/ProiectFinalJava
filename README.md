@@ -48,12 +48,12 @@ CREATE TABLE Products (
 ```
 
 **4. Configure the database connection**
-
+```
 Update the application.properties (or application.yml) file in the src/main/resources directory with your database credentials:
 spring.datasource.url=jdbc:mysql://localhost:3306/InventoryDB
 spring.datasource.username=root
 spring.datasource.password=ProiectFinal
-
+```
 **5.Build and run the project**
 Run the project from IntelliJ IDEA by selecting Run > Run 'Main'.
 
