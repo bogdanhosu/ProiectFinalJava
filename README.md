@@ -28,7 +28,7 @@ This project is a simple Java-based console application for managing products, i
 **2. Open the project in IntelliJ IDEA**
 
 Open IntelliJ IDEA.
-Select File > Open... and choose the cloned repository directory.
+Select File > Open... and choose the cloned repository directory. (the location on your pc)
 
 **3.Set up MySQL**
 
@@ -49,9 +49,9 @@ CREATE TABLE Products (
 **4. Configure the database connection**
 
 Update the application.properties (or application.yml) file in the src/main/resources directory with your database credentials:
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+spring.datasource.url=jdbc:mysql://localhost:3306/InventoryDB
+spring.datasource.username=root
+spring.datasource.password=ProiectFinal
 
 **5.Build and run the project**
 Run the project from IntelliJ IDEA by selecting Run > Run 'Main'.
@@ -66,6 +66,8 @@ This application provides a menu to manage products. The following options are a
 - 4.Remove a product
 - 5.Delete all products
 - 6.Exit
+
+Just run the 'Main' class and pick whatever you like to do with the database.
 
 ## Example
 Product Management Menu:
