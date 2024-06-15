@@ -37,7 +37,7 @@ Create a new database:
 CREATE DATABASE InventoryDB;
 
 Create a Products table in the InventoryDB database:
-```bash sql 
+```sql 
 CREATE TABLE Products (
     id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -45,7 +45,7 @@ CREATE TABLE Products (
     quantity INT,
     origin VARCHAR(100)
 );
-
+```
 
 **4. Configure the database connection**
 
