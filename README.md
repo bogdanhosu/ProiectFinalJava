@@ -57,7 +57,7 @@ spring.datasource.password=your_password
 Run the project from IntelliJ IDEA by selecting Run > Run 'Main'.
 
 
-##Usage
+## Usage
 This application provides a menu to manage products. The following options are available:
 
 1.Display all products
@@ -67,7 +67,7 @@ This application provides a menu to manage products. The following options are a
 5.Delete all products
 6.Exit
 
-##Example
+## Example
 Product Management Menu:
 1. Display all products
 2. Update product price
@@ -80,19 +80,14 @@ Enter your choice: 1
 Displaying all products:
 Product{id=1, name='DemoApple', price=1.5, quantity=200, origin='USA'}
 Product{id=2, name='DemoBanana', price=0.75, quantity=200, origin='Brazilia'}
-...
 
-
-
-
-
-##Configuration
+## Configuration
 Update the database credentials in the ProductService class if necessary. You may also add additional configuration for logging, error handling, etc.
 
-##Running Tests
+## Running Tests
 Go to test/java/ProductServiceTest and just run the test that you want to run, or right-click and run the whole class with all tests.
 
-**Contributing**
+## Contributing
 
 Fork the repository.
 Create your feature branch (git checkout -b feature/AmazingFeature).
@@ -100,11 +95,10 @@ Commit your changes (git commit -m 'Add some AmazingFeature').
 Push to the branch (git push origin feature/AmazingFeature).
 Open a pull request.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-##Contact
-
+## Contact
 Email: b.hosu@ymail.com
 GitHub: bogdanhosu
