@@ -60,12 +60,12 @@ Run the project from IntelliJ IDEA by selecting Run > Run 'Main'.
 ## Usage
 This application provides a menu to manage products. The following options are available:
 
-1.Display all products
-2.Update product price
-3.Update product quantity
-4.Remove a product
-5.Delete all products
-6.Exit
+- 1.Display all products
+- 2.Update product price
+- 3.Update product quantity
+- 4.Remove a product
+- 5.Delete all products
+- 6.Exit
 
 ## Example
 Product Management Menu:
