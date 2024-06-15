@@ -10,7 +10,7 @@ This project is a simple Java-based console application for managing products, i
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- 
+  
 ## Installation
 
 - Java Development Kit (JDK) 8 or higher
