@@ -71,6 +71,7 @@ This application provides a menu to manage products. The following options are a
 Just run the 'Main' class and pick whatever you like to do with the database.
 
 ## Example
+
 Product Management Menu:
 1. Display all products
 2. Update product price
@@ -80,10 +81,11 @@ Product Management Menu:
 6. Exit
 Enter your choice: 1
 
+```
 Displaying all products:
 Product{id=1, name='DemoApple', price=1.5, quantity=200, origin='USA'}
 Product{id=2, name='DemoBanana', price=0.75, quantity=200, origin='Brazilia'}
-
+```
 ## Configuration
 Update the database credentials in the ProductService class if necessary. You may also add additional configuration for logging, error handling, etc.
 
